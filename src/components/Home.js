@@ -1,9 +1,10 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 
 const Home = () => {
   return (
     <div>
-      {/*{code here}*/}
+      <h1>Home Page</h1>
     </div>
   );
 };
